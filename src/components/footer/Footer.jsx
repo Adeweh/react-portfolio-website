@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <a href='a' className='footer__logo'>EGATOR</a>
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contacts">Contact</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -15,8 +15,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://instagram.com"></a>
-        <a href="https://twitter.com"></a>
+        <a href="https://instagram.com">Instagram</a>
+        <a href="https://twitter.com">Twitter</a>
       </div>
     </footer>
   )
