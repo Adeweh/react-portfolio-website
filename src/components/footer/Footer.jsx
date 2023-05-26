@@ -3,9 +3,22 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <footer>
+      <a href='a' className='footer__logo'>EGATOR</a>
+      <ul className='permalinks'>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contacts">Contact</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#service">Service</a></li>
+      </ul>
+
+      <div className="footer__socials">
+        <a href="https://instagram.com"></a>
+        <a href="https://twitter.com"></a>
+      </div>
+    </footer>
   )
 }
 

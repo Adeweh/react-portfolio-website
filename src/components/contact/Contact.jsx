@@ -15,13 +15,13 @@ const Contact = () => {
             <TfiEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>adewehabang@gmail.com</h5>
-            <a href='mailto:adewehabang@gmail.com' target='_blank'>Send a message</a>
+            <a href='mailto:adewehabang@gmail.com' target='_blank' rel="noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <RiWhatsappFill className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+2347062828140</h5>
-            <a href='https://api.whatsapp.com/send?phone+2347062828140' target='_blank'>Send a message</a>
+            <a href='https://api.whatsapp.com/send?phone+2347062828140' target='_blank' rel="noreferrer">Send a message</a>
           </article>
         </div>
         <form action="">
